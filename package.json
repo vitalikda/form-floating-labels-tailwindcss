@@ -1,0 +1,23 @@
+{
+  "name": "form-floating-labels-tailwindcss",
+  "version": "1.0.0",
+  "description": "Simple form with floating labels build with Tailwind CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vitalikda/form-floating-labels-tailwindcss"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/tailwind.css",
+    "dev": "postcss css/tailwind.css -o public/tailwind.css -w"
+  },
+  "author": "Vitaly.im",
+  "license": "MIT",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
