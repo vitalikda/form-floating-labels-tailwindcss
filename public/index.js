@@ -9,7 +9,7 @@ function toggleError() {
     el.classList.toggle("hidden");
   });
 
-  // Show red border and text
+  // Highlight input and label with red
   const allBorders = document.querySelectorAll(".border-gray-200");
   const allTexts = document.querySelectorAll(".text-gray-500");
   allBorders.forEach((el) => {
